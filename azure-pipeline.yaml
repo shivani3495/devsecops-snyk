@@ -5,7 +5,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-- group: "SECURE_TOKENS"
+- group: "TOKENS_SECURE"
 - name: snyk_token
   value: $[variables.SNYKTOKEN]
 
